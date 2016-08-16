@@ -16,6 +16,9 @@ public class TelaCadastro extends javax.swing.JFrame {
         jRadioButton1 = new javax.swing.JRadioButton();
         buttonGroup1 = new javax.swing.ButtonGroup();
         buttonGroup2 = new javax.swing.ButtonGroup();
+        popupMenu1 = new java.awt.PopupMenu();
+        popupMenu2 = new java.awt.PopupMenu();
+        popupMenu3 = new java.awt.PopupMenu();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         campoNome = new javax.swing.JTextField();
@@ -98,6 +101,12 @@ public class TelaCadastro extends javax.swing.JFrame {
         jLabel1.setText("jLabel1");
 
         jRadioButton1.setText("jRadioButton1");
+
+        popupMenu1.setLabel("popupMenu1");
+
+        popupMenu2.setLabel("popupMenu2");
+
+        popupMenu3.setLabel("popupMenu3");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setAlwaysOnTop(true);
@@ -693,7 +702,7 @@ public class TelaCadastro extends javax.swing.JFrame {
      e1.setSensibilidade((String) campoSense.getSelectedItem());
      e1.setFuma((String) campoFuma.getSelectedItem());
    
-     //System.out.print("Sexo: " + e1.getSexo());
+   
      
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -876,6 +885,9 @@ public class TelaCadastro extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JRadioButton jRadioButton1;
+    private java.awt.PopupMenu popupMenu1;
+    private java.awt.PopupMenu popupMenu2;
+    private java.awt.PopupMenu popupMenu3;
     private javax.swing.JComboBox<String> tratMed;
     // End of variables declaration//GEN-END:variables
 }
